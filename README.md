@@ -21,7 +21,7 @@ Use Closing Operation.
 <br><br><br><br><br>
 
 ## PROGRAM:
-```
+```python
 /*
 Developed by   : Lokesh Krishnaa M
 Register Number: 212220230030
