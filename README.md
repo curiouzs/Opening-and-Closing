@@ -33,9 +33,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create the Text using cv2.putText
-img=np.zeros((100,400),dtype='uint8')
+img=np.zeros((100,600),dtype='uint8')
 font=cv2.FONT_ITALIC
-cv2.putText(img,'U Bhavya',(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(img,'Lokesh Krishnaa M',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img)
 plt.show()
@@ -59,11 +59,14 @@ plt.show()
 ## OUTPUT:
 
 ### Display the input Image
+![lok](https://user-images.githubusercontent.com/75234646/172284030-7871299d-8902-4549-b3ca-4ff4cf4d47de.png)
 
+### Display the result of Opening:
+![lok 2](https://user-images.githubusercontent.com/75234646/172284038-d241361d-191c-4fb0-b2a5-90a6e5cde8d7.png)
 
-### Display the result of Opening
 
 ### Display the result of Closing
+![lok3](https://user-images.githubusercontent.com/75234646/172284051-c3c1b88d-444d-40b1-9a60-f645c167d0cc.png)
 
 
 ## RESULT:
