@@ -48,11 +48,11 @@ plt.show()
 ```
 ## OUTPUT:
 ### Display the input Image
-![lok](https://user-images.githubusercontent.com/75234646/172284030-7871299d-8902-4549-b3ca-4ff4cf4d47de.png)
+<img src="https://user-images.githubusercontent.com/75234646/172284030-7871299d-8902-4549-b3ca-4ff4cf4d47de.png" width ="50%" height="50%">
 ### Display the result of Opening:
-![lok 2](https://user-images.githubusercontent.com/75234646/172284038-d241361d-191c-4fb0-b2a5-90a6e5cde8d7.png)
+<img src="https://user-images.githubusercontent.com/75234646/172284038-d241361d-191c-4fb0-b2a5-90a6e5cde8d7.png" width ="50%" height="50%">
 ### Display the result of Closing
-![lok3](https://user-images.githubusercontent.com/75234646/172284051-c3c1b88d-444d-40b1-9a60-f645c167d0cc.png)
+<img src="https://user-images.githubusercontent.com/75234646/172284051-c3c1b88d-444d-40b1-9a60-f645c167d0cc.png" width ="50%" height="50%">
 
 ## RESULT:
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
