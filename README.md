@@ -22,25 +22,21 @@ Use Closing Operation.
 Developed by   : Lokesh Krishnaa M
 Register Number: 212220230030
 */
-# Import the necessary packages
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-# Create the Text using cv2.putText
 img=np.zeros((100,600),dtype='uint8')
 font=cv2.FONT_ITALIC
 cv2.putText(img,'Lokesh Krishnaa M',(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.axis('off')
 plt.imshow(img)
 plt.show()
-# Create the structuring element
 kernel=cv2.getStructuringElement(cv2.MORPH_RECT,(9,9))
 # Use Opening operation
 image_open=cv2.morphologyEx(img,cv2.MORPH_OPEN,kernel)
 plt.axis('off')
 plt.imshow(image_open)
 plt.show()
-# Use Closing Operation
 image_close=cv2.morphologyEx(img,cv2.MORPH_CLOSE,kernel)
 plt.axis('off')
 plt.imshow(image_close)
